@@ -1,0 +1,68 @@
+
+
+
+.homeContainer{
+ font-family:sans-serif;
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: center; 
+   align-items: center; 
+   margin-top: 10px; 
+   padding: 100px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+.homeContainerBlock1{
+flex: 1;
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
+
+
+.heroHeadText{
+    font-size: 60px;
+}
+.name{
+    font-weight: 600;
+    color: blueviolet;
+}
+.heroSubText{
+    font-size: 30px;
+}
+.resumeContainer{
+    width: 14rem;
+}
+.resume{
+    padding: 4px;
+    margin-top: 20px;
+    width: 13rem;
+    border-radius: 10px;
+    color: blueviolet;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+justify-content: center;
+background-color: rgb(213, 184, 241) ;
+    color: black;
+    text-shadow: 2px 2px 4px rgb(78, 7, 145);
+
+}
+.resume:hover{
+    border: 1px solid rgb(226, 196, 255) ;
+    color: blueviolet;
+    background-color: black;
+}
+
+.homeContainerBlock2{
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.homeimg{
+ 
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
